@@ -1,0 +1,14 @@
+.Select{
+    width: 100%;
+    font-family: 'cursive';
+    outline: none;
+    padding: 4px;
+    border-width: 3px;
+    border-radius: 5px;
+    background: #ffffff;
+    border-color: #ffffff;
+    font-size: 20px;
+}
+[placeholder]{
+    color: #000;
+}

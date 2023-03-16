@@ -1,0 +1,39 @@
+html {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+body{
+    background-color: #c0bfbf;  
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.App{
+    width: 50%;
+    height: 80%;
+    font-family: 'cursive';
+    color: #000000;
+}
+
+.loadmoreBtn{
+    background-color: rgb(0, 0, 0);
+    font-family: 'cursive';
+    color:  rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    letter-spacing: 3px;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+    height: 40px;
+    margin: 0 auto;
+}
+.loadmoreBtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
